@@ -1,0 +1,52 @@
+.this{color: rgb(228, 225, 232);
+font-size: 70px;
+letter-spacing: 10px;
+width: 100%;
+text-align: right;
+padding-right: 10px;
+background-color: #064143;
+justify-content: space-between;
+padding-top: 15px;
+
+}
+.this span{
+  font-size: 40px;
+  float: left;
+  padding-top: 15px;
+  margin-left: 40px;
+
+}
+
+
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+
+.main-list{font-size: 23px;}
+
+
+
+.logo {
+  animation: logoani 25s infinite;
+}
+
+@keyframes logoani {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    letter-spacing: 7px;
+    opacity: 1;
+  }
+}
+
+
+.logo:hover {
+  font-size: large;
+}
